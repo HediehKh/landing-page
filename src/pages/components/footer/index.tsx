@@ -14,7 +14,7 @@ export default function Footer() {
                 />
                 <div className={styles.footerLink}>
                     <h2>Contact</h2>
-                    <Link href="/">Number</Link>
+                    <h2>Number</h2>
                 </div>
                 <div className={styles.github}>
                     <h3>© 2024 Hedieh Kharaqani</h3>
