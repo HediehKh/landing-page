@@ -1,0 +1,35 @@
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    background-color: #990F4B;
+    color: #0b0a0a;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 15px;
+}
+
+.link:hover {
+    background-color: #B62263;
+    color: #0b0a0a;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.signUp {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 20px;
+    color: #0b0a0a;
+}

@@ -1,0 +1,31 @@
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 100%;
+    max-width: 50%; 
+    background-color: white; 
+    border-radius: 1.875rem; 
+    border: 0.125rem solid #B62263; 
+    padding: 2.5rem; 
+ }
+
+ .title {
+  display:flex;
+  padding: left 2px;
+  flex-direction:column;
+  width:auto;
+  line-height:2em;
+  color: #0b0a0a;
+}
+
+.title h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+

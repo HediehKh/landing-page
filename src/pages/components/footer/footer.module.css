@@ -1,0 +1,26 @@
+.footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLinks {
+    display: flex;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+.github {
+    text-align: right;
+}
+
+.github h3 {
+    margin-bottom: 10px;
+}
+
+.github a {
+    color: #B62263;
+}
