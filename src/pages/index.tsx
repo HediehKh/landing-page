@@ -4,6 +4,7 @@ import Features from './components/features';
 import Header from './components/header';
 import Footer from './components/footer'; 
 import Newsletter from './components/newsletter';
+import Pricing from './components/Pricing';
 
 export default function Home() {
   return (
@@ -22,6 +23,12 @@ export default function Home() {
           <div className={`container mx-auto`}>
             <h2 className={`text-3xl font-bold text-center text-gray-800 mb-8`}>Features</h2>
             <Features />
+          </div>
+        </div>
+        <div className={`w-full py-12 md:py-16 lg:py-20`}>
+          <div className={`container mx-auto`}>
+            <h2 className={`text-3xl font-bold text-center text-gray-800 mb-8`}> Amplify Pricing</h2>
+            <Pricing />
           </div>
         </div>
         <div className={`w-full bg-white py-12 md:py-16 lg:py-20`}>
