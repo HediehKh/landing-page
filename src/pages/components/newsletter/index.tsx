@@ -24,7 +24,7 @@ export default function Newsletter() {
                         <label htmlFor="checkbox" className={`${styles.checkboxLabel}`}>I agree to receive emails</label>
                     </div>
                 </div>
-                <Link href="/" className={`${styles.submitButton}`}>Sign Up</Link>
+                <Link href="/" className={`${styles.submitButton}`}>Suscribe</Link>
             </div>
         </div>
     );
