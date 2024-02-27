@@ -8,7 +8,7 @@ export default function Pricing() {
                 <div className={`${styles.feature}`}>
                     <div className={`${styles.featureContent}`}>
                         <div className={`${styles.splineContainer1}`}>
-                            <Spline scene="https://prod.spline.design/p3FGY1fzbOtRXP8p/scene.splinecode" />
+                            <Spline scene="https://prod.spline.design/7pnhYYzgURmiV4MK/scene.splinecode" />
                         </div>
                         <div className={`${styles.textContainer}`}>
                             <h2 className={`${styles.title}`}>Basic Plan</h2>
@@ -44,7 +44,7 @@ export default function Pricing() {
                 <div className={`${styles.feature}`}>
                     <div className={`${styles.featureContent}`}>
                         <div className={`${styles.splineContainer1}`}>
-                            <Spline scene="https://prod.spline.design/p3FGY1fzbOtRXP8p/scene.splinecode" />
+                            <Spline scene="https://prod.spline.design/vyhZn-limgFMviZW/scene.splinecode" />
                         </div>
                         <div className={`${styles.textContainer}`}>
                             <h2 className={`${styles.title}`}>Family Plan</h2>
