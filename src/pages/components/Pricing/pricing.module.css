@@ -1,28 +1,28 @@
 .splineContainer1 {
     width: 500px; 
     height: 400px; 
-  }
+}
 
-  .title {
+.title {
     font-size: 20px;
     margin-bottom: 10px;
-  }
+}
   
-  .description {
+.description {
     font-size: 16px;
     margin-bottom: 20px;
-  }
+}
   
-  .price {
+.price {
     font-size: 20px;
     margin-bottom: 20px;
-  }
+}
   
-  .button {
+.button {
     text-align: center;
-  }
+}
   
-  .button button {
+.button button {
     background-color: #990F4B;
     color: #0b0a0a;
     padding-top: 0.5em;
@@ -30,25 +30,21 @@
     padding-left: 1em;
     padding-right: 1em;
     border-radius: 15px;
-  }
+}
   
-  .featuresContainer {
-    flex-direction: column;
+.featuresContainer {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
     gap: 20px;
-    align-items: center;
     border: 2px solid #b62263;
     padding: 20px;
     border-radius: 10px;
-  }
+}
   
-  .featureContent {
+.featureContent {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-  
-  .title {
-    font-size: 2rem;
-    font-weight: bold;
-  }
+}
