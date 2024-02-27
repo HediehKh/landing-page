@@ -3,7 +3,7 @@ import styles from "./pricing.module.css";
 
 export default function Pricing() {
     return (
-        <div>
+        <div className={`${styles.container}`}>
             <div className={`${styles.featuresContainer}`}>
                 <div className={`${styles.feature}`}>
                     <div className={`${styles.featureContent}`}>
